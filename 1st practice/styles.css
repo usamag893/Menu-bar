@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/bg.jpg);
+  background-position: coover;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar {
+  background-color: rgb(59, 59, 241);
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 10px;
+  padding: 10px;
+}
+.menu-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.active .menu-bar ul li :hover
+{
+    background: rgba(240, 240, 243, 0.589);
+    border-radius: 3px;
+}
